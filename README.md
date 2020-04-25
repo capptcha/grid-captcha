@@ -1,2 +1,6 @@
 # grid-captcha
-Grid Captcha
+
+```
+pip install tqdm
+python build.py
+```

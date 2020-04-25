@@ -3,7 +3,7 @@ from tqdm import tqdm
 import os
 os.system('mkdir grid_captcha_data')
 
-for i in tqdm(range(10)):
+for i in tqdm(range(1000000)):
     builder = CaptchaBuilder()  # Create builder
     builder.build()  # Generate new image
     #print(''.join(builder.ret_name()))
