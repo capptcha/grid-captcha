@@ -10,7 +10,9 @@ from scipy.ndimage.filters import gaussian_filter
 
 
 class CaptchaBuilder:
-
+    def __del__(self):
+        # body of destructor
+        pass
     def __init__(self):
 
         # General
